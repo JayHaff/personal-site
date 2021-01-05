@@ -1,0 +1,143 @@
+
+.contactdiv
+{
+  float:right;
+  padding: 25px;
+  cursor: pointer;
+
+}
+
+
+
+.skillsdiv
+{
+  float:right;
+  padding: 25px;
+  cursor: pointer;
+
+}
+.aboutdiv
+{
+  float:right;
+  padding: 25px;
+  cursor: pointer;
+
+}
+
+.headerlink{
+  
+  
+  
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  
+  color: rgb(238, 241, 247);
+
+  transition: color 2.5s,font-size 1.5s;
+  position: center;
+  
+  
+
+}
+
+.otherlink{
+  
+  
+  transition: color 2s,font-size .5s;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-style: bold;
+  
+  color: rgba(5, 224, 236, 0.521);
+
+  position: center;
+  transition: color 2.5s,font-size 1.5s;
+  
+  
+
+}
+.headerlink:hover{
+
+  
+  
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  color:  rgb(133, 173, 241);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+
+.divshake{
+  float:right;
+  padding: 25px;
+  animation: shake ;
+  animation-duration: 1.5s;
+  
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes shake {
+  0% { transform: rotate(10deg); }
+  25% { transform:  rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+  75% { transform:  rotate(-10deg); }
+  
+  100% { transform: rotate(10deg); }
+}
+ 
+ @media screen and (max-width: 768px) {
+
+
+  
+.contactdiv
+{
+  float:right;
+  padding: 25px;
+  display: none;
+
+}
+
+
+
+.skillsdiv
+{
+  float:right;
+  padding: 25px;
+  height: auto;
+  width: auto;
+  display: none;
+}
+.aboutdiv
+{
+  float:right;
+  padding: 25px;
+  height: auto;
+  width: auto;
+  display: none;
+  
+
+}
+
+  
+.divshake{
+  float:right;
+  padding: 25px;
+  animation: shake ;
+  animation-duration: 1.5s;
+  
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+  display: none;
+
+}
+ }
+
+

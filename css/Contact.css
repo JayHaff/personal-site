@@ -1,0 +1,20 @@
+.contact{
+  height: 100vh ;
+  background:rgba(216, 226, 247, 0.849);
+  
+  }
+
+  .linkclassdiv{
+    position: relative;
+    top:15%;
+  }
+
+  @media screen and (max-width: 600px){
+
+   
+    .linkclassdiv{
+     display: none;
+    }
+  }
+
+  

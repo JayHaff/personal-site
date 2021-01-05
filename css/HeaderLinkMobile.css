@@ -1,0 +1,115 @@
+
+
+   
+    .mobilelinkdiv{
+      
+      position: fixed;
+      height: 100%;
+      width: 35%;
+      background-color: #06263b;
+      right: 0px;
+      z-index: -1;
+      padding:50px;
+       
+   
+  
+      transition:  transform .7s ease-in ;
+  
+       
+   
+      transform: translateX(1000%);
+      
+      }
+      .mobiledivdone{
+        
+        position: fixed;
+      height: 100%;
+      width: 35%;
+      background-color: #06263b;
+      right: 0px;
+      z-index: -1;
+      padding:50px;
+       
+   
+  
+      transition:  transform .7s ease-in ;
+  
+       
+   
+      transform: translateX(1000%);
+      
+      
+      }
+    
+      .contactdivmobile
+    {
+      float:center;
+      padding: 55px;
+      cursor: pointer;
+
+    
+    }
+    
+    
+    
+    .skillsdivmobile
+    {
+      float:center;
+      padding: 55px;
+      cursor: pointer;
+    
+    }
+    .aboutdivmobile
+    {
+      float:center;
+      padding: 55px;
+      cursor: pointer;
+    
+ 
+     }
+
+     
+@media screen and (max-width: 768px){
+
+  body{
+    overflow-x: hidden;
+  }
+  
+  .mobilelinkdiv{
+    position: fixed;
+    height: 100%;
+    width: 35%;
+    background-color: #06263b;
+    right: 0px;
+    z-index: -1;
+    padding:50px;
+     
+ 
+    transform: translateX(0%);
+
+    transition:  transform .7s ease-in ;
+
+     
+    
+
+    }
+
+    .mobiledivdone{
+      position: fixed;
+      height: 100%;
+      width: 35%;
+      background-color: #06263b;
+      right: 0px;
+      z-index: -1;
+      padding:50px;
+       
+      
+      transform: translateX(100%);
+      
+      transition:  transform .7s ease-in ;
+
+     
+    
+    }
+
+  }

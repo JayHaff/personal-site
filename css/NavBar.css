@@ -1,0 +1,64 @@
+.burger
+{
+  float:right;
+  padding: 15px;
+  
+  display: none;
+
+  
+
+}
+.line{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    display: none;
+    
+}
+
+.linehover{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(133, 173, 241);
+    margin: 5px;
+    display: none;
+    
+}
+
+@media screen and (max-width: 768px){
+
+    .burger
+{
+  float:right;
+  padding: 15px;
+  display: block;
+  cursor: pointer;
+  
+
+  
+
+}
+.line{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    display: block;
+   
+    
+}
+
+.linehover{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(133, 173, 241);
+    margin: 5px;
+   display: block;
+    
+}
+
+  
+        
+     }
+    

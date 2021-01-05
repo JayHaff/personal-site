@@ -1,0 +1,178 @@
+.formdiv{
+   position: absolute;
+   top:210%;
+   
+}
+
+.contact-form
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+.formdiv div{
+   padding :10px;
+}
+
+.email-form{
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  color:rgb(13, 47, 49);;
+  font-size: 20px;
+  background-color:rgb(216, 226, 247); ;
+  width: 400px;
+  height: 30px;
+
+
+  border: 2px solid #06263b;
+  border-radius: 10px;
+
+}
+.subject-form{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    color:rgb(13, 47, 49);;
+    font-size: 20px;
+    background-color:rgb(216, 226, 247); ;
+    width: 400px;
+    height: 30px;
+  
+  
+    border: 2px solid #06263b;
+    border-radius: 10px;
+  
+  }
+  .message-form{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    color:rgb(13, 47, 49);;
+    font-size: 20px;
+    background-color:rgb(216, 226, 247); 
+    width: 600px;
+    height: 200px;
+  
+  
+    border: 2px solid #06263b;
+    border-radius: 10px;
+  
+  }
+
+  .submit-button{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    color:rgb(216, 226, 247); 
+    font-size: 20px;
+    background-color:rgb(21, 79, 82);
+    width: 100px;
+    height: 50px;
+  
+  
+    
+    border-radius: 10px;
+
+  }
+
+  .submit-button:hover{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    color:rgb(216, 226, 247); 
+    font-size: 20px;
+    background-color:rgb(39, 141, 146);
+    width: 100px;
+    height: 50px;
+  
+  
+    
+    border-radius: 10px;
+
+  }
+
+  @media screen and (max-width: 1350px){
+
+   
+    .email-form{
+     
+      width: 350px;
+      
+    
+    }
+    .subject-form{
+        
+        width: 350px;
+      
+      
+      }
+      .message-form{
+        width: 500px;
+        
+      }
+    }
+
+  @media screen and (max-width: 1150px){
+
+   
+    .email-form{
+     
+      width: 300px;
+      
+    
+    }
+    .subject-form{
+        
+        width: 300px;
+      
+      
+      }
+      .message-form{
+        width: 400px;
+        
+      }
+    }
+
+    @media screen and (max-width: 900px){
+
+   
+      .email-form{
+       
+        width: 250px;
+        
+      
+      }
+      .subject-form{
+          
+          width: 250px;
+        
+        
+        }
+        .message-form{
+          width: 300px;
+          
+        }
+      }
+
+      @media screen and (max-width: 768px){
+
+   
+        .email-form{
+         
+          width: 200px;
+          
+        
+        }
+        .subject-form{
+            
+            width: 200px;
+          
+          
+          }
+          .message-form{
+            width: 200px;
+            
+          }
+        }
+
+
+        

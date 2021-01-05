@@ -1,0 +1,44 @@
+.header{
+  height: 10vh ;
+  display: block;
+  width: 100%;
+  position: fixed;
+  
+
+z-index: 2;
+  
+  background: #06263b;
+      }
+  
+  .headerlogo{
+    float: left;
+    padding-left: 10%;
+    margin: 10px;
+    color: rgb(238, 241, 247);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+    
+    
+    
+  }
+  
+  .linkdiv{
+    height: 100%;
+    width: auto;
+    padding-right: 10%;
+    margin: -5px;
+    float: right;
+    z-index: 1;
+  
+  
+    
+
+  }
+
+
+    
+
+  
+  
+  

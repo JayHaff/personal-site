@@ -1,0 +1,48 @@
+.icondiv{
+   position: relative;
+   width:20%;
+   
+    margin-left: 45%;
+    margin-right: 55%;
+
+
+    
+    
+}
+
+.git {
+    position: relative;
+    font-size: 50px;
+    padding: 10px;
+    display: inline;
+    color:rgba(1, 1, 1, 0.877)
+   
+}
+.git:hover {
+    position: relative;
+    font-size: 50px;
+    padding: 10px;
+    display: inline;
+    color:rgba(1, 1, 1, 0.6)
+   
+}
+
+
+.linkedin {
+    position: relative;
+    font-size: 50px;
+    padding: 10px;
+    display: inline;
+    color: rgb(40,103,178)
+   
+}
+
+.linkedin:hover {
+    position: relative;
+    font-size: 50px;
+    padding: 10px;
+    display: inline;
+    color: rgba(40, 102, 178, 0.6)
+   
+}
+

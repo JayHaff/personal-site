@@ -1,0 +1,76 @@
+.svgdiv{
+    text-align: right;
+    padding-right: 5%;
+    margin:40px;
+}
+
+#longline{
+
+    animation: longline ease-in 3s infinite ;
+
+}
+
+@keyframes longline {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+  }
+
+  
+#Bird{
+   
+     animation: bird ;
+    animation-duration: 3.5s;
+    
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+
+}
+  
+@keyframes bird {
+    0% { transform: rotate(1deg); }
+    25% { transform:  rotate(-1deg); }
+    50% { transform: rotate(1deg); }
+    75% { transform:  rotate(-1deg); }
+    
+    100% { transform: rotate(1deg); }
+  }
+
+  .animation{
+    width:500px;
+     height:350px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+   
+    .animation{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+   
+    .animation{
+        width: 300px;
+    }
+    }
+
+    @media screen and (max-width: 768px){
+
+   
+        .animation{
+            width: 250px;
+        }
+        }
+
+        @media screen and (max-width: 600px){
+
+   
+            .animation{
+              display: none;
+            }
+            }
